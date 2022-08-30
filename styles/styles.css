@@ -1,0 +1,13 @@
+body {
+  overflow: hidden;
+}
+
+body, section {
+  padding-top: 50px;
+}
+
+.scrollspy-example {
+  position: relative;
+  height: 300px;
+  overflow: auto;
+}
