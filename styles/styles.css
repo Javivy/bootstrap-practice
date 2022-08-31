@@ -1,4 +1,42 @@
 body {
-  padding: 4rem;
+  position: relative;
+  margin-top: 5rem;
+  padding: 0 1rem 0 1rem;
 }
 
+.img-container > a {
+  color: #fff;
+}
+
+.badge {
+  margin: 0 0 0 15px;
+}
+
+.card > img {
+  object-fit: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.img-container > a > img {
+  height: 38px;
+  width: 38px;
+}
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 17rem;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.07);
+  box-shadow: 1px 1px 25px 10px #afafafff;
+}
