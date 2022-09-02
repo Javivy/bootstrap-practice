@@ -98,3 +98,29 @@ header {
 .project-btn {
   margin: 0 auto;
 }
+
+/* ABOUT ME SECTION */
+
+.card-about-me {
+  background: #ebf0ee;
+}
+
+.card-bg-about-me {
+  width: 200px;
+  justify-self: center;
+  align-self: center;
+}
+
+.badge-about-me {
+  color: #36b37f;
+}
+
+/* FORM SECTION */
+
+.form-text-area {
+  resize: none;
+}
+
+.form-control {
+  width: 75%;
+}
