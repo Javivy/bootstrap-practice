@@ -1,0 +1,127 @@
+* {
+  font-family: 'Inter', sans-serif;
+  color: #344563;
+}
+
+body {
+  position: relative;
+
+  /* margin: 3rem; */
+}
+
+header {
+  background-image: url('../images/Header-llustration-desktop.svg');
+  background-position: cover;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headline-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.headline-p {
+  width: 50%;
+  margin: 1rem auto;
+  font-size: 20px;
+}
+
+.chevron-down-icon {
+  margin: 2rem auto;
+  border: 1px solid #afafafff;
+  padding: 5px 10px;
+}
+
+.green {
+  color: #36b37f;
+}
+
+.nav-link {
+  color: #344563;
+}
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 20rem;
+  height: 27rem;
+  border: 1px solid #d0d9d4;
+  border-radius: 10px;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.card-bg {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.badge {
+  color: #344563;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  background-color: #ebf0ee;
+  cursor: pointer;
+}
+
+.modal-dialog {
+  height: 100%;
+}
+
+.modal-body {
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.modal-image-container {
+  margin: 0 auto;
+}
+
+.project-btn {
+  margin: 0 auto;
+}
+
+/* ABOUT ME SECTION */
+
+.card-about-me {
+  background: #ebf0ee;
+}
+
+.card-bg-about-me {
+  width: 200px;
+  justify-self: center;
+  align-self: center;
+}
+
+.badge-about-me {
+  color: #36b37f;
+}
+
+/* FORM SECTION */
+
+.form-text-area {
+  resize: none;
+}
+
+.form-control {
+  width: 75%;
+}
