@@ -2,7 +2,7 @@
 
 # Bootstrap Practice
 
-> In this project, I showed off my abilities with Bootstrap v5. Creating and styling elements with Bootstrap and working in collaboration with my coding partner
+> This is a Bootstrap practice to show off our abilities to build websites with CSS frameworks such as Bootstrap, make use of official documentation and create modals, buttons, links, cards, make use of bootstrap flexbox, grid, to style the website, and more!
 
 
 ## Built With
